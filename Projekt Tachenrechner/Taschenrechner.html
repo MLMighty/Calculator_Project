@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div id="Container">
+
+    <div id="Content">
+
+    </div>
+
+    <div id="Calculator">
+
+        <table>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td onclick="Delete()" id="Delete">DEL</td>
+            </tr>
+
+           <tr>
+            <td onclick="Cont(7)">7</td>
+            <td onclick="Cont(8)">8</td>
+            <td onclick="Cont(9)">9</td>
+            <td onclick="Cont('/')">/</td>
+           </tr>
+
+
+           <tr>
+            <td onclick="Cont(4)">4</td>
+            <td onclick="Cont(5)">5</td>
+            <td onclick="Cont(6)">6</td>
+            <td onclick="Cont('*')">*</td>
+           </tr>
+
+
+           <tr>
+            <td onclick="Cont(3)">3</td>
+            <td onclick="Cont(2)">2</td>
+            <td onclick="Cont(1)">1</td>
+            <td onclick="Cont('-')">-</td>
+           </tr>
+
+
+           <tr>
+            <td onclick="Cont(0)">0</td>
+            <td onclick="Cont('.')">.</td>
+            <td onclick="Result()">=</td>
+            <td onclick="Cont('+')">+</td>
+           </tr>
+
+
+        </table>
+
+    </div>
+
+    </div>
+
+    <script src="func.js"></script>
+    
+</body>
+</html>
